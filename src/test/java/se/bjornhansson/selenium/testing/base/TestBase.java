@@ -1,4 +1,4 @@
-package se.bjornhansson.selenium.testing;
+package se.bjornhansson.selenium.testing.base;
 
 import org.junit.Rule;
 
