@@ -28,7 +28,7 @@ public class BjornHanssonTest extends TestBase {
 
     @Test
     public void testThatTitleIsCorrect() {
-        assertEquals("Title should be correct", "Björn Hansson", PAGE.getPageTitle());
+        assertEquals("Title should be correct", "Björn Hansson | Software Engineer", PAGE.getPageTitle());
     }
 
     @Test
