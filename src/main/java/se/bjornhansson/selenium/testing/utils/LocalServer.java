@@ -12,11 +12,23 @@ public class LocalServer {
     private Server myServer;
     private String myPageDir;
 
+    /**
+     * Use random port as default
+     */
     public LocalServer() {
     }
 
     /**
-     * Starts the server. Use random port as default
+     * Use given port
+     * 
+     * @param port
+     */
+    public LocalServer(int port) {
+        myPort = port;
+    }
+
+    /**
+     * Starts the server
      * 
      * @throws Exception
      */
@@ -49,10 +61,6 @@ public class LocalServer {
 
     public int getPort() {
         return myPort;
-    }
-
-    public void setPort(int port) {
-        myPort = port;
     }
 
     public void setPageDir(String dir) {
